@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	handler "github.com/empregoligado/graphql-handler"
 	"github.com/graphql-go/graphql/testutil"
-	"github.com/graphql-go/handler"
 )
 
 func TestRenderPlayground(t *testing.T) {
